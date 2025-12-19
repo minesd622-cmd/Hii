@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "pojavskinreforged",
+  "version": "${version}",
+  "name": "Pojav Skin Reforged",
+  "description": "Advanced skin replacement mod optimized for PojavLauncher and offline mode.",
+  "authors": [
+    "Architect"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://github.com/example/repo"
+  },
+  "license": "MIT",
+  "icon": "assets/pojavskinreforged/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.pojavskin.SkinChangerMod"
+    ]
+  },
+  "mixins": [
+    "pojavskinreforged.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
