@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.pojavskin.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinAbstractClientPlayerEntity",
+    "MixinPlayerSkinProvider"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
