@@ -28,6 +28,7 @@ public abstract class MixinAbstractClientPlayerEntity {
             SkinTextures original = cir.getReturnValue();
             SkinTextures newTextures = new SkinTextures(
                 customSkin,
+                null, // Texture URL
                 null, // Cape texture
                 null, // Elytra texture
                 original.model(),
