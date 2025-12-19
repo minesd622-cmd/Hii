@@ -42,7 +42,7 @@ public class SkinLoader {
     private void loadSkinAsync(String username) {
         if (loadedSkins.containsKey(username)) return;
         // Put a placeholder to prevent spamming threads
-        loadedSkins.put(username, new Identifier("minecraft", "textures/entity/steve.png")); 
+        loadedSkins.put(username, Identifier.of("minecraft", "textures/entity/steve.png")); 
 
         executor.submit(() -> {
             try {
